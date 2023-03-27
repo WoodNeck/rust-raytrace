@@ -1,0 +1,42 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+
+}
+
+#canvas {
+  /* width: 100%;
+  height: 100%; */
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 250px);
+  background-color: #666;
+}
+
+#render {
+  border: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.concurrency {
+  padding: 10px;
+}
+
+#concurrency-amt {
+  margin: 0;
+}
